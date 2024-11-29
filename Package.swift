@@ -8,6 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "IonicPortals",
+            type: .dynamic,
             targets: ["IonicPortals"]
         )
     ],
